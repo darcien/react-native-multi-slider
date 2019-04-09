@@ -2,7 +2,7 @@ declare module 'react-native-multi-slider' {
   import {Component, ComponentType} from 'react';
   import {StyleProp, ViewStyle} from 'react-native';
 
-  type Values = [number] | [number, number];
+  type Values = Array<number>;
 
   interface TouchDimensions {
     height?: number;
